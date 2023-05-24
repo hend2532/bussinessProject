@@ -1,0 +1,94 @@
+.section1 {
+   background-image: url(images/HomeDesktopSlide2.jpg);
+   width: 100%;
+   background-size: cover;
+   height: 500px;  
+}
+.section1 h1{
+   text-align: center;
+   color: rgb(141, 217, 10);
+   font-size: 45px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-top: 250px;
+   box-sizing: border-box;
+   background-color: rgba(0, 0, 0, 0.303);
+   height: 100%;
+}
+.section1 span{
+   color: rgb(0, 255, 42);
+}
+.section2 {
+   text-align: center;
+   width: 50%;
+   color: #888;
+   margin-left: 25%;
+   margin-top: 50px;
+   line-height: 30px;
+   font-size: 20px;
+   letter-spacing: 1.1px;
+}
+.description{
+   display: flex;
+   gap: 10px;
+   text-align: center;
+   margin-top: 100px;
+   width: 90%;
+   margin-left: 5%;
+}
+.description div{
+   border: 1.5px solid rgb(141, 217, 10);
+   padding: 15px;
+}
+.description div:first-of-type{
+   border-top-left-radius: 100px;
+}
+.description div:nth-of-type(2){
+   
+   border-radius: 5px;
+}
+.description div:last-of-type{
+   border-top-right-radius: 100px;
+}
+.description .one{
+   border-bottom-left-radius: 100px;
+   border-top-left-radius: 0px!important;
+}
+.description .two{
+   
+   border-radius: 5px;
+}
+.description .three{
+   border-bottom-right-radius: 100px;
+   border-top-right-radius: 0px!important;
+}
+.description h1{
+   color: red;
+   margin-bottom: -20px;
+}
+.description h1:hover{
+   color: rgb(199, 4, 4);
+}
+.description p{
+   color: #888;
+}
+pre{
+   color: rgb(210, 36, 36);
+}
+.e{
+   display: inline;
+}
+.q{
+   display: inline;
+}
+.l{
+   display: inline;
+}
+.one{
+   display: inline;
+}
+.two{
+   display: inline;
+}
+.three{
+   display: inline;
+}

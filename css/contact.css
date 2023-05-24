@@ -1,0 +1,132 @@
+*{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+   display: flex;
+   background-color: rgba(255, 255, 255, 0.896);
+   position: fixed;
+   top: 10px;
+   width: 100%;
+}
+.logo{
+   width: 150px;
+   margin-left: 40px;
+}
+.header .header-logo ul{
+   display: flex;  
+}
+.header .header-logo li{
+   list-style: none;
+}
+.header .header-logo a{
+   text-decoration: none;
+   color: red;
+   margin-left: 40px;
+   text-align: center;
+   padding: 10px;
+   transition: .5s;
+}
+.header .header-logo a:hover {
+   background-color: red;
+   color: white;
+   text-align: center;
+   width: fit-content;
+   border-radius: 10px;
+}
+.section{
+   width: 100%;
+   
+}
+.section h1{
+   color: white;
+   box-sizing: border-box;
+   padding-top: 80px;
+   padding-left: 30px;
+   background-image: url(images/ContactDesktophtml_row0.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 200px;
+   font-size: 40px;
+}
+form {
+   color: #666;
+   margin-left: 5px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif;
+}
+form h1{
+   text-align: center;
+}
+form input,textarea,button{
+   width: 70%;
+   padding: 5px;
+   outline: none;
+   margin-bottom: 10px ;
+   border: 1px solid rgb(54, 177, 52);
+   border-radius: 5px;
+}
+form textarea{
+   height: 80px;
+}
+button{
+  width: fit-content;
+  background-color: white;
+   margin-left: 15px;
+}
+footer{
+   background-color: black;
+   margin-top: 100px;
+   padding: 10px;
+   padding-left: 100px;
+   box-sizing: border-box;
+}
+footer .logo{
+   box-sizing: border-box;
+   padding: 10px;
+}
+footer li{
+   background-color: rgb(224, 221, 221);
+   font-size: 20px;
+   padding: 5px;
+   border-radius: 5px;
+   margin-left: 10px;
+}
+footer .fa-facebook-f{
+   color: blue;
+}
+footer .fa-truck-fast{
+   color: rgb(54, 177, 52);
+}
+footer .fa-envelope{
+   color: red;
+}
+footer .parent{
+   display: flex;
+   gap: 100px;
+   color: white;
+   padding: 12px;
+}
+footer .parent p{
+   font-size: 12px;
+   color: #888;
+   line-height: 20px;
+}
+footer  a:last-of-type{
+   text-decoration: none;
+   color: #999;
+   font-weight: bold;
+   font-size: 14px;
+   text-align: center;
+   width: 50%;
+   margin-left: 25%;
+   display: block;
+}
+footer .name{
+   color: white;
+   width: 50%;
+   margin-left: 30%;
+   margin-top: 10px;
+   font-weight: bold;
+}
+footer span{
+   color: rgb(54, 177, 52);
+}

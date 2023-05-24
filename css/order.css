@@ -1,0 +1,35 @@
+fieldset{
+   width: 80%;
+   color: #666;
+   border-radius: 10px;
+   margin-bottom: 30px;
+}
+.order{
+   color: #777;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 40px;
+}
+.total{
+   background-color: #eee;
+   border-radius: 10px;
+   margin: 10px;
+   font-size: 30px;
+   padding: 10px 10px 10px 0;
+   width: fit-content;
+}
+.total label{
+   background-color: #ccc;
+   padding: 10px;
+}
+.total span{
+   /* width: 50px; */
+   padding: 10px;
+   box-sizing: border-box;
+   border-radius: 20px;
+}
+button{
+   font-size: 20px;
+   color: #666;
+   font-weight: 500;
+}
