@@ -7,15 +7,15 @@
    <link rel="stylesheet" href="contact.css">
 	<link rel="stylesheet" href="normalize.css">
    <!-- font Awesome libarary -->
-   <link rel="stylesheet" href="css/all.css">
-   <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="all.css">
+   <link rel="stylesheet" href="all.min.css">
 </head>
 <body>
 <div class="header">
-      <img class="logo" src="images/logo.png" alt="">
+      <img class="logo" src="../images/logo.png" alt="">
       <div class="header-logo">
          <ul>
-            <li><a href="home.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li><a href="task1.php">Order</a></li>
             <li class="active"><a href="contact.php">Contact us</a></li>
          </ul>
@@ -126,7 +126,7 @@
 	}
 </script>
    <footer>
-      <img class="logo" src="images/logo.png" alt="">
+      <img class="logo" src="../images/logo.png" alt="">
       <a href="#"> <li class="fab fa-facebook-f"></li> </a>
       <a href="task1.php"> <li class="fa-sharp fa-solid fa-truck-fast"></li> </a>
       <a href="contact.php"><li class="fa-sharp fa-solid fa-envelope"></li></a>
